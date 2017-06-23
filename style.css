@@ -1,0 +1,20 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+	position: relative;
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+#inicio nav{
+	width: 100%
+}
+#inicio nav ul{
+	display-flex:flex-box;
+}
+#inicio nav ul li {
+	border:
+}
