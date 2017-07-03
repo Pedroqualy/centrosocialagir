@@ -1,5 +1,7 @@
-*, *:before, *:after{
-	box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+*, *:before, *:after {
+  box-sizing: border-box;
 	position: relative;
 }
 
@@ -7,14 +9,176 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 150px;
+}
+
+#home{
+	width: 100%;
+	height:100vh;	
+	display:flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+#home nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+
+}
+#home nav ul{
+	display:flex;
+	list-style: none;
+	padding-left: 0;
+
+}
+#home nav ul li{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 0.9em;
+	color: #00416d;
+	font-style: normal;
+	text-align: center;
+	line-height: 0.8em;
+	border: solid 1px #888;
+	border-radius: 20px;
+	margin: 0 2%;
+	background: #fff;
+	width: 150px;
+	padding: 10px 0; 
+	/*Precisei alterar margin, padding e line-height.*/
+}
+#home img{
+	width: 36.02%;
+	margin:166px 1.46%;
+	/*Precisei incluir tamanho comparativo entre imagem e div p*/
+}
+#home div {
+	position: relative;
+	top:220px;
+	right: -10px;
+	width: 23%;
+}
+#home div p{
+	width: 77.31%;
+	color: #95989a;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing:0;
+}
+
+#sobre{
+	width: 100%;
+	height: 800px;
+	background-image: url('Assets/DSC01680.JPG');
+	background-size: 100%;
+	font-size:1.88;
+	color:#95989a;
+	font-style:normal;
+	text-align:left;
+	line-height:1.61;
+	letter-spacing:0;
+}
+#sobre div{
+	width:38%;
+	top:100px;
+	left: 50%;
+	background: #fff;
+	padding: 34.17px;
+	border-radius: 10px;
+	font-size: 1em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em; 
+}
+#sobre div h1{
+	margin: 0 38 0 24;
+	font-size: 1.88em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+}
+#sobre div p{
 	width:100%;
+	color: #95989a;
+	font-size: 0.88em;
+	font-style: normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	line-height: 0.75em;
+	letter-spacing: 0em;
 }
-#inicio nav{
-	width: 100%
+
+section h2{
+	color: #95989a;
+	font-size: 1.88em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-style:normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
 }
-#inicio nav ul{
-	display-flex:flex-box;
+
+section h3{
+	color: #95989a;
+	font-size: 1.56em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-style:normal;
+	text-align: left;
+	line-height: 1.34em;
+	letter-spacing: 0em;
 }
-#inicio nav ul li {
-	border:
+
+#acoes {
+	background-size: 100%;
+	background-color: white;
+	font-size: 1.56em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+}
+#açoes div{
+	width:38%;
+	top:100px;
+	left: 50%;
+	background: #fff;
+	padding: 34.17px;
+	border-radius: 10px;
+	font-size: 1em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+}
+
+#acoes p {
+	/*color: #95989a;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.5em;
+	letter-spacing: 0;*/
 }
